@@ -1,0 +1,114 @@
+/* shared styles */
+
+header
+/* header styles */
+
+.header {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+}
+
+.header-text {
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: center;
+}
+
+.wish {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 100px;
+}
+
+.party {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    padding-top: 50px;
+}
+
+
+
+/* styles for main part */
+
+.offer {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#off {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+#off1 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#off2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* welcome to party */
+
+.midnight-party {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+}
+
+#greeting {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    padding-left: 126px;
+}
+
+#party-des {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    padding-left: 126px;
+}
+
+#join-now{
+    color: #fbe894;
+text-align: left;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 700;
+padding-left: 126px;
+}
+
+.year {
+    align-items: center;
+    padding-left: 50px;
+}
