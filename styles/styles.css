@@ -158,7 +158,14 @@ header
 
 /*offer promotion 1 */
 .offer-promo1 {
+    max-width: 1200px;
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #promo1 {
@@ -211,6 +218,7 @@ header
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    max-width: 276px;
 }
 
 #image3 {
@@ -223,4 +231,73 @@ header
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
+}
+
+/* 6th part */
+.sale {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+}
+
+#what {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#holiday-sale {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#hs1 {
+    color: black;
+}
+
+#holiday-text {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+#element1 {
+    display: flex;
+    align-items: center;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-position: 50% 100%; 
+    width: 1320px;
+    background-repeat: no-repeat;
+
+}
+
+#img4 {
+    width: 796.463px;
+    height: 662.07px;
+}
+
+#img5 {
+    width: 429px;
+    height: 433px;
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+}
+
+#img6{
+    position: absolute;
+    top: 40%;
+    left: 55%;
 }
