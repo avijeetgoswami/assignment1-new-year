@@ -1,6 +1,4 @@
-/* shared styles */
 
-header
 /* header styles */
 
 .header {
@@ -233,12 +231,12 @@ header
     font-weight: 700;
 }
 
-/* 6th part */
+/* 5th part */
 .sale {
-   max-width: 1200px;
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 #what {
@@ -277,9 +275,10 @@ header
     display: flex;
     align-items: center;
     background-image: url('../resources/Rectangle\ 2.png');
-    background-position: 50% 100%; 
+    background-position: 50% 100%;
     width: 1320px;
     background-repeat: no-repeat;
+    gap: 93px;
 
 }
 
@@ -296,8 +295,193 @@ header
     z-index: -1;
 }
 
-#img6{
+#img6 {
     position: absolute;
-    top: 40%;
-    left: 55%;
+    top: 45%;
+    left: 61%;
+}
+
+/* product part */
+
+.product {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#gift1 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#gift2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#gift3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 450px 450px;
+    grid-template-columns: 424px 424px 424px;
+    gap: 20px;
+}
+
+
+/* Subscribe Part */
+.sub {
+    text-align: center;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1320px;
+}
+
+#img7 {
+    padding-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+#sub1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#sub-text {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-weight: 400;
+    line-height: 32px;
+    width: 800;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-family: 'Inter',
+        sans-serif;
+    font-size: 20px;
+}
+
+.subscribe {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+#gmail {
+    border-start-start-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-color: #F00;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#submission {
+    border-top-right-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: #F00;
+    width: 150px;
+    height: 55px;
+    border-color: #F00;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+/* footer */
+
+.imfooter{
+background-color: #070211;
+}
+
+.footer {
+    margin: auto;
+    text-justify: auto;
+    text-align: center;
+    max-width: 1200px;
+    background-color: #070211;
+    padding: 20px;
+    padding-right: 20px;
+
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#ttt1{
+    text-align: left;
+}
+#ttt2{
+    text-align: right;
+}
+.footer2{
+    display: flex;
+    margin: 80px;
+    gap: 20px;
+justify-content: center;
+}
+
+.footer3{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* form styles */
+
+#form{
+    padding-top: 50px;
+    text-align: center;
+    
+    background-color: aquamarine;
+    background-position: center;
+    margin: auto;
+    height: 200px;
+    width: 600px;
+    max-width: 1200px;
+}
+}
+
+#form1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    background-position: center;
+    margin: auto;
+    height: 200px;
+    width: 600px;
+    max-width: 1200px;
 }
